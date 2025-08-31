@@ -5,8 +5,5 @@ services:
     plan: free
     branch: main
     buildCommand: ""
-    startCommand: "php -S 0.0.0.0:10000 -t ."
+    startCommand: php -S 0.0.0.0:10000 -t .
     autoDeploy: true
-    envVars:
-      - key: PHP_VERSION
-        value: "8.1"
